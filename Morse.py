@@ -103,5 +103,9 @@ try:
 	call('"'+c+'lights.exe" "'+c+'morse.kls"')
 except:
 	call('"'+c+'lights.py" "'+c+'morse.kls"')
-while repeat:
-	call('wscript.exe "'+c+'compiled.vbs"')
+if isinstance(repeat,int):
+	for _ in range(repeat-1):
+		call('wscript.exe "' + c + 'compiled.vbs"')
+else:
+	while repeat:
+		call('wscript.exe "' + c + 'compiled.vbs"')
