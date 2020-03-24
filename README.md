@@ -1,7 +1,7 @@
 # Morse-code
 Translate a message from english to morse on the lights of your keyboard
 
-Text to morse.py should be run in cmd with the following arguments (none are keyword but are only strings , order does not matter):
+Morse.py should be run in cmd with the following arguments (none are keyword but are only strings , order does not matter):
 
 "text='Text to translate to morse'"
 
